@@ -1,0 +1,1 @@
+##2016 resolution : Learn Functional Programming
