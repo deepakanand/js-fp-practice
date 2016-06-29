@@ -3,5 +3,11 @@
 	"dependencies": {
 		"lodash": "latest"	,
 		"expect": "latest"
+	},
+	"devDependencies": {
+		"http-server": "latest"
+	},
+	"scripts": {
+		"start": "http-server -p 31415 ."
 	}
 }
