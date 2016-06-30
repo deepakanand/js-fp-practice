@@ -1,5 +1,7 @@
-// foo is an impure function
-// Wrap it in a pure function - bar
+// A pure function is a function that has no side effects
+// It does not change things outside of its environment
+// 
+// Wrap foo in a pure function - bar
 function bar(x, y) {
 
 	var z;
@@ -12,7 +14,6 @@ function bar(x, y) {
 		z = x * y;
 
 	}
-
 }
 
 expect(
